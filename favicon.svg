@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Travel compass and landscape icon">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="256" cy="256" r="198"/>
+    </clipPath>
+    <linearGradient id="hillA" x1="95" y1="300" x2="430" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9bb95a"/>
+      <stop offset="1" stop-color="#486f35"/>
+    </linearGradient>
+    <linearGradient id="hillB" x1="70" y1="360" x2="390" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#315f3d"/>
+      <stop offset="1" stop-color="#143826"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="#0b2f4f" stroke-width="24" stroke-linecap="round">
+    <path d="M256 54v36"/>
+    <path d="M256 422v36"/>
+    <path d="M54 256h36"/>
+    <path d="M422 256h36"/>
+    <path d="M114 114a201 201 0 0 1 284 0"/>
+    <path d="M398 398a201 201 0 0 1-284 0"/>
+    <path d="M114 398a201 201 0 0 1 0-284"/>
+    <path d="M398 114a201 201 0 0 1 0 284"/>
+  </g>
+
+  <g clip-path="url(#circleClip)">
+    <path d="M75 344c62-48 132-69 210-62 61 5 105 30 152 72v116H75z" fill="url(#hillA)"/>
+    <path d="M62 390c72-32 145-37 218-14 72 23 127 19 187-9v119H62z" fill="url(#hillB)"/>
+    <path d="M228 486c29-66 56-112 2-136-33-15-86-6-145 18" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    <path d="M228 486c29-66 56-112 2-136-33-15-86-6-145 18" fill="none" stroke="#edf3eb" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="374" cy="315" r="20" fill="#0b2f4f"/>
+    <rect x="369" y="328" width="10" height="48" rx="5" fill="#0b2f4f"/>
+    <path d="M343 356c24-20 47-20 70 0" fill="none" stroke="#0b2f4f" stroke-width="15" stroke-linecap="round"/>
+  </g>
+
+  <g transform="rotate(40 256 256)">
+    <path d="M256 84l38 172h-76z" fill="#c83b3b"/>
+    <path d="M256 428l-38-172h76z" fill="#0b2f4f"/>
+    <circle cx="256" cy="256" r="30" fill="#ffffff" stroke="#0b2f4f" stroke-width="16"/>
+  </g>
+</svg>

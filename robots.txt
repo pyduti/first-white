@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /process.php
+Disallow: /form-token.php
+Disallow: /thanks_you.php
+
+Sitemap: https://domain.com/sitemap.xml
